@@ -176,7 +176,7 @@ h3 {
   font-family: "Noto Sans Tangsa", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  margin-top: -120px;
+  
 }
 
 #presentation p {
@@ -252,7 +252,7 @@ h3 {
 #elevage {
   background-color: rgb(231, 225, 217);
 
-  height: 2300px;
+  height: 2360px;
 }
 
 #elevage li:hover {
@@ -260,7 +260,7 @@ h3 {
   transition: 0.6s ease-in-out;
 }
 #elevage h3 {
-  padding-top: 50px;
+  padding-top: 130px;
   padding-bottom: 120px;
   color: black;
   text-shadow: 1px 1px 1px rgb(17, 47, 25);
@@ -316,8 +316,8 @@ h6 {
 footer {
   background-color: #182e04d1;
   color: white;
-  margin-top: 0;
-  padding: 20px 0 10px 0;
+  
+  padding: 130px 0 10px 0;
   text-align: center;
   font-family: "Noto Sans Tangsa", sans-serif;
 }
