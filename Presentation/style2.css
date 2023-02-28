@@ -1,0 +1,799 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans+Tangsa:wght@500&family=Russo+One&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.6s ease-in-out;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+nav.header {
+  background-color: rgba(49, 79, 65, 0.95);
+  min-height: 140px;
+
+  min-width: 100%;
+  position: fixed;
+  z-index: +10;
+}
+
+nav.header ul {
+  min-width: 100%;
+  display: flex;
+}
+#iconLogo {
+  padding-top: 4px;
+  margin-left: 98px;
+}
+#logo {
+  font-family: "Russo One", sans-serif;
+  text-shadow: 1px 1px 5px grey;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-left: 0;
+
+  font-size: 3rem;
+  padding-top: 32px;
+}
+#logo a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#navbar {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+nav li {
+  padding-left: 25px;
+}
+
+#accueil a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  justify-content: space-around;
+}
+#etalons a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Noto Sans Tangsa", sans-serif;
+}
+#femelle a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Noto Sans Tangsa", sans-serif;
+}
+
+#memoire a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Noto Sans Tangsa", sans-serif;
+}
+
+.material-symbols-outlined {
+  padding-top: 6px;
+  vertical-align: text-bottom;
+  color: rgb(184, 94, 170);
+}
+
+/**********************ETALONS*********************/
+
+#imagePrincipal {
+  background: url(./assets/img/cover9.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 935px;
+}
+
+#imagePrincipal h2 {
+  font-size: 4em;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-align: center;
+  padding-top: 820px;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#scroll1 {
+  position: absolute;
+  top: 1vh;
+}
+
+#scroll1 nav {
+  padding-top: 480px;
+}
+#scroll1 ul {
+  width: 1px;
+  perspective: 600px;
+}
+#scroll1 ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+#scroll1 li {
+  transform: rotateY(30deg) scaleX(1.3);
+  transform-origin: left;
+  transition: 0.3s;
+}
+#scroll1 li:hover {
+  transform: rotateY(3deg);
+}
+#scroll1 li a {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px 6px black;
+  opacity: 0.9;
+}
+#scroll1 li a:hover {
+  opacity: 1;
+}
+
+#mayank h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  text-transform: capitalize;
+}
+
+#trait {
+  height: 1px;
+  width: 60%;
+  background-color: black;
+  margin: 60px auto;
+}
+
+#mayank {
+  background-color: rgba(84, 182, 193, 0.338);
+  min-height: 1800px;
+}
+
+#photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+section#mayank img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+
+#tableau h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+table.fiche {
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.534);
+  margin: 80px auto;
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid midnightblue;
+}
+.question {
+  background-color: rgba(85, 159, 202, 0.609);
+}
+
+#tableau h4 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+#lesParents {
+  display: flex;
+  margin: 80px 25%;
+  justify-content: space-between;
+}
+
+table.palmares {
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.534);
+  margin: auto;
+
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid rgb(36, 6, 6);
+  background-color: rgba(57, 110, 131, 0.496);
+  border-radius: 1%;
+}
+#palmares h3 {
+  margin-top: 150px;
+
+  margin-bottom: 80px;
+}
+#palmares {
+  margin-top: 80px;
+
+  padding-bottom: 250px;
+}
+
+td {
+  padding: 5px 0;
+}
+
+a {
+  color: black;
+}
+
+/****************FEMELLES********************/
+
+#imagePrincipal1 {
+  background: url(./assets/img/coverFemelle2.png) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 935px;
+}
+#imagePrincipal1 h2 {
+  font-size: 4em;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-align: center;
+  padding-top: 820px;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#scroll {
+  position: absolute;
+  top: 43vh;
+}
+#scroll nav {
+  position: relative;
+}
+#scroll ul {
+  width: 1px;
+  perspective: 600px;
+}
+#scroll ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+#scroll li {
+  transform: rotateY(30deg) scaleX(1.3);
+  transform-origin: left;
+  transition: 0.3s;
+}
+#scroll li:hover {
+  transform: rotateY(3deg);
+}
+#scroll li a {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px black;
+  opacity: 0.6;
+}
+#scroll li a.active,
+#scroll li a:hover {
+  opacity: 1;
+}
+
+#number h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#number {
+  background-color: rgba(149, 78, 104, 0.338);
+}
+
+section#number img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#number h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+table.fiche1 {
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.534);
+  margin: 80px auto;
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid rgb(144, 30, 68);
+}
+.question1 {
+  background-color: rgba(255, 191, 202, 0.757);
+}
+#lesParents1 {
+  display: flex;
+  margin: 80px 25%;
+  justify-content: space-between;
+}
+#lesParents1 h4 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+#trait1 {
+  height: 1px;
+  width: 80%;
+  background-color: black;
+  margin: auto;
+}
+
+/*****************************NAYA*************************/
+
+#naya h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#naya {
+  background-color: rgba(149, 78, 104, 0.338);
+  min-height: 2000px;
+}
+
+section#naya img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#naya h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+/******************LOUKIA***********************/
+
+#loukia h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#loukia {
+  background-color: rgba(149, 78, 104, 0.338);
+  min-height: 1800px;
+}
+
+section#loukia img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#loukia h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+/*****************LASKA*******************/
+
+#laska h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#laska {
+  background-color: rgba(149, 78, 104, 0.338);
+  min-height: 1800px;
+}
+
+section#laska img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#laska h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+/****************MEMOIRE*****************/
+
+#imagePrincipal2 {
+  background: url(./assets/img/dzarocover.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 935px;
+}
+#imagePrincipal2 h2 {
+  font-size: 4em;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-align: center;
+  padding-top: 820px;
+
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#scroll2 {
+  position: absolute;
+  top: 16vh;
+}
+
+#scroll2 ul {
+  width: 1px;
+  perspective: 600px;
+}
+#scroll2 ul:hover li:not(:hover) {
+  opacity: 0.5;
+}
+#scroll2 li {
+  transform: rotateY(30deg) scaleX(1.3);
+  transform-origin: left;
+  transition: 0.3s;
+}
+#scroll2 li:hover {
+  transform: rotateY(3deg);
+}
+#scroll2 li a {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.6;
+}
+#scroll2 li a.active,
+#scroll2 li a:hover {
+  opacity: 1;
+}
+
+#dzaro h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#dzaro {
+  background-color: whitesmoke;
+}
+
+section#dzaro img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#dzaro h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#dzaro h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+table.fiche2 {
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.534);
+  margin: 80px auto;
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  text-transform: uppercase;
+  border: 2px solid midnightblue;
+}
+.question2 {
+  background-color: rgba(106, 148, 112, 0.757);
+}
+
+#gandja h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#gandja {
+  background-color: whitesmoke;
+}
+
+section#gandja img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#gandja h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#gandja h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#enzo h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#enzo {
+  background-color: whitesmoke;
+}
+
+section#enzo img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#enzo h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#enzo h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#fidger h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#fidger {
+  background-color: whitesmoke;
+}
+
+section#fidger img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#fidger h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#fidger h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#cheyenne h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#cheyenne {
+  background-color: whitesmoke;
+}
+
+section#cheyenne img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#cheyenne h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#cheyenne h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#fame h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#fame {
+  background-color: whitesmoke;
+}
+
+section#fame img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#fame h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#fame h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#faya h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#faya {
+  background-color: whitesmoke;
+}
+
+section#faya img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#faya h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#faya h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#holvaness h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#holvaness {
+  background-color: whitesmoke;
+}
+
+section#holvaness img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#holvaness h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#holvaness h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#injoye h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#injoye {
+  background-color: whitesmoke;
+}
+
+section#injoye img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#injoye h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#injoye h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+
+#demone h1 {
+  text-align: center;
+  font-size: 8em;
+  font-family: "Dancing Script", "cursive";
+  padding-top: 120px;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+}
+#demone {
+  background-color: whitesmoke;
+}
+
+section#demone img {
+  border-radius: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.733);
+}
+#demone h3 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+#demone h4 {
+  text-align: center;
+  font-family: "Noto Sans Tangsa", sans-serif;
+  font-size: 1.3em;
+  text-transform: capitalize;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: 0.6s ease-in-out;
+}
+
+
+
+
+
+
